@@ -1,0 +1,130 @@
+.wrapper {
+  margin: -1.7rem auto auto;
+
+  max-width: 46rem;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.wrapper form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.wrapper > form > input {
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  line-height: 1.6;
+
+  width: 100%;
+}
+
+.wrapper > form > button {
+  background: var(--blue-700);
+  color: var(--gray-100);
+
+  font-weight: bold;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 8px;
+  line-height: 1.6;
+  padding: 0.75rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.wrapper > form > button:hover {
+  background: var(--blue-500);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.info > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info > div > strong {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.info > div > strong.created {
+  color: var(--blue-500);
+}
+
+.info > div > strong.done {
+  color: var(--purple-500);
+}
+
+.info > div > span {
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.125rem 0.5rem;
+  border-radius: 1rem;
+  background: var(--gray-400);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  border-top: 1px solid var(--gray-400);
+  margin-top: 1.5rem;
+  padding: 4rem 1rem;
+}
+
+.empty svg {
+  color: var(--gray-300);
+}
+
+.empty > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty > div > strong {
+  font-weight: bold;
+  line-height: 1.6;
+  color: var(--gray-300);
+}
+
+.empty > div > span {
+  line-height: 1.6;
+  color: var(--gray-300);
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  gap: 1rem;
+}
