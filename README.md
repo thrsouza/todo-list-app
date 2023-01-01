@@ -15,6 +15,10 @@ Apesar de ser uma aplicação simples, pude relembrar e aprimorar conhecimentos 
 
 - Unidades de medidas relativas;
 - Como tomar a decisão de quando criar ou não um novo componente;
-- Conceitos de gerencimento de estados e imutabilidade;
+- Conceitos de gerenciamento de estados e imutabilidade;
 
 Então **SIM**, valeu muito a pena! :)
+
+---
+
+**Demo:** https://superb-cocada-e6d4f0.netlify.app/
